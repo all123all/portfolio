@@ -4,15 +4,26 @@
 
 <template>
   <div class="main-container">
-
+    <div class="navbar">
+      <a href="">
+        Home
+      </a>
+    </div>
   </div>
 </template>
 
 <style>
 .main-container {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   background-image: url('/grid.png');
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  /* background-color: transparent; */
+  background-color: #c2c2c2;
+
 }
 </style>
